@@ -1,0 +1,42 @@
+@font-face {
+    font-family: con;
+    src: url(../fonts/CONSOLA.TTF);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: con;
+}
+header.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #8888;
+    padding: 20px;
+    height: 10vh;
+}
+.container{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .textBackground{
+    display: flex;
+    margin: 50px;
+}
+.container .textBackground h1{
+    margin: 20px;
+}
+.container button{
+    width: 200px;
+    padding: 9px 15px;
+    border: 2px solid #cc0000;
+    background: #cc0000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
